@@ -3,6 +3,7 @@ package com.example.love;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Point;
 import android.os.Handler;
 import android.support.v7.app.AlertDialog;
@@ -55,7 +56,9 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
 
-                        move();
+                        Intent q = new Intent(getApplicationContext(),MainActivity.class);
+                        startActivity(q);
+
 
                     }
                 });

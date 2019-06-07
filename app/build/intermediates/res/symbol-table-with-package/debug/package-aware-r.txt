@@ -616,6 +616,7 @@ drawable boat64
 drawable heart128
 drawable heart32
 drawable heart64
+drawable land
 drawable mermaid128
 drawable mermaid32
 drawable mermaid64
